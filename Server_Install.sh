@@ -72,11 +72,9 @@ echo "hashtopolis sql user pass = HASHuserPASSWORD1!" >> passes.txt
 apt purge expect -y
 rm Hashtopolis_Server_Install.sh
 rm mysqlsecure_expect_script
-rm Readme.txt
 
 echo " "
 echo "############################################################################################"
 echo "   Installation is now complete! Please finish the final steps in the web browser        "
 echo "############################################################################################"
 echo " "
-

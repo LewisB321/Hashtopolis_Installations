@@ -11,6 +11,10 @@ no idea about other vers)
 You should run this script as root user, preferably in the root directory because this is where 
 the temporary password file will be stored
 
+You will need the expect script too inside of the same location. This will communicate with the
+mysql_secure_installation on your behalf with the safest answers. Naturally, if you wish to do this yourself,
+you can remve this from the script and run it yourself. Up to you
+
 The script will ask you to input 2 things- the amount of memory you want hashtopolis to use and the
 maximum file upload size. You can input whatever value you like, but please bear in mind it's in MB's only
 i.e. 2048M = 2G
@@ -37,4 +41,3 @@ This script assumes that you are on the same network as the server. If this is n
 the script will most likely fail. You would most likely need to edit /etc/hosts so the client 
 can see the server. You can use host the server and an agent on the same machine, and you can also have
 >1 agent for larger tasks
-

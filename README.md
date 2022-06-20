@@ -13,7 +13,7 @@ the temporary password file will be stored
 
 You will need the expect script too inside of the same location. This will communicate with the
 mysql_secure_installation on your behalf with the safest answers. Naturally, if you wish to do this yourself,
-you can remve this from the script and run it yourself. Up to you
+you can remove this from the script and run it yourself. Up to you
 
 The script will ask you to input 2 things- the amount of memory you want hashtopolis to use and the
 maximum file upload size. You can input whatever value you like, but please bear in mind it's in MB's only
@@ -32,12 +32,20 @@ The final steps to installation are in the web browser. Just type in localhost i
 
 This is a bash script which should be deployed on an ubuntu machine (tested with 18.04,
 desktop ideal but server should work also). This script should be ran as root but it
-matters not the location, just that it's a reasonable location.
+matters not the location, just that it's a reasonable location
 
 You will need the IP of the hashtopolis server and the 'voucher' code to activate the agent. After
-the initial activation you must only run 'python3 agent.zip for it to begin immediately
+the initial activation you must only run 'python3 agent.zip' for it to begin immediately
 
 This script assumes that you are on the same network as the server. If this is not the case, 
 the script will most likely fail. You would most likely need to edit /etc/hosts so the client 
 can see the server. You can use host the server and an agent on the same machine, and you can also have
->1 agent for larger tasks
+multiple agents for larger tasks. You may also have more than 1 agent on a single device but I would
+not recommend to do so. You will have to run these agents in seperate directories
+
+here are some useful links for other Hashtopolis resources. I highly recommend viewing these beforehand
+to get a better understanding of what the scripts do:
+https://hackingvision.com/2020/03/30/distributed-hash-cracking-hashcat-hashtopolis-tutorial/ - Comprehensive Tutorial
+https://www.youtube.com/watch?v=O08gddjVbfc&t=5s - Server installation guide (by creator)
+https://github.com/hashtopolis - Github repo
+Good luck

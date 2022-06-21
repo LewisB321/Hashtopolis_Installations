@@ -51,4 +51,4 @@ to get a better understanding of what the scripts do:
 https://hackingvision.com/2020/03/30/distributed-hash-cracking-hashcat-hashtopolis-tutorial/ - Comprehensive Tutorial
 https://www.youtube.com/watch?v=O08gddjVbfc&t=5s - Server installation guide (by creator)
 https://github.com/hashtopolis - Github repo
-Good luck
+YOU MAY HAVE TO INSTALL HASHCAT IF YOU GET THE ERROR 'Speed Benchmark Failed'

@@ -23,6 +23,9 @@ Passwords have been predetermind by me to be simple yet satisfy the sql password
 in the scripts prior to execution but not after (I think sql root user can be changed, not user hashtopolis 
 though). This can also be done via variables but I have not done this.
 
+YOU CAN ALSO USE Installation_With_Input TO SET YOUR OWN PASSWORD INTERACTIVELY BUT I HAVE NOT ADDED INPUT VALIDATION
+MY BASH SCRIPTING KNOWLEDGE IS FAIRLY LIMITED
+
 The script outputs a text file called passes.txt which contain the pre-determined passwords. I recommend 
 removing this file or password protecting it at the minimum (which at the time I don't know how to do) 
 

@@ -51,4 +51,7 @@ to get a better understanding of what the scripts do:
 https://hackingvision.com/2020/03/30/distributed-hash-cracking-hashcat-hashtopolis-tutorial/ - Comprehensive Tutorial
 https://www.youtube.com/watch?v=O08gddjVbfc&t=5s - Server installation guide (by creator)
 https://github.com/hashtopolis - Github repo
-YOU MAY HAVE TO INSTALL HASHCAT IF YOU GET THE ERROR 'Speed Benchmark Failed'
+
+If you would like to use the 'reset password' email feature, https://kenfavors.com/code/how-to-install-and-configure-sendmail-on-ubuntu/
+is a brief but useful guide to do so. Please note that many larger mail clients such as Gmail and Outlook will disregard these emails unless
+the server has a legitimate PTR record in your dns (if you are using this as part of a domain)
